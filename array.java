@@ -40,7 +40,7 @@ public static void main(String...args)throws IOException, InterruptedException {
             {8,4,5,6}
         };
         //using the foreach loop 
-l        System.out.println("from the for each loop");
+        System.out.println("from the for each loop");
         for(int i[]:nums)
         {
             for(int b:i)
