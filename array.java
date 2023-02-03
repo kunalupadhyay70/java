@@ -1,3 +1,4 @@
+ // all basic program of the array
 import java.io.IOException;
 import java.util.Scanner;
 class claculation{
