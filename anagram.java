@@ -1,6 +1,8 @@
 import java.lang.reflect.Array;
 import java.rmi.server.SocketSecurityException;
 import java.util.Arrays;
+import java.util.Scanner;
+
 public class anagram {
     
     public static void main(String[] args) {
