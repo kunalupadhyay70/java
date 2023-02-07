@@ -47,7 +47,7 @@ public static void main(String...args)throws IOException, InterruptedException {
             {
                 System.out.print(b + " ");
             }
-            System.out.println();
+           System.out.println();
         } 
         System.out.println("\n from the iteration of the loop");
 //from the iteration of the for loop
