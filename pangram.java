@@ -1,7 +1,9 @@
+import java.io.IOException;
 //check whether the alphabets are present in the string or not 
 class pangram{
-   public static void main(String[] args) {
-     boolean flag=false;
+   public static void main(String...args)throws IOException,InterruptedException {
+    new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor(); 
+    boolean flag=false;
     String s= "mai hoon hero ka papa";
      // convert them in the sequantial manner (upper case )( lower case)
      s=s.toUpperCase();
