@@ -3,6 +3,7 @@ private String sex ; //private memeber cant be accesed by derived class #encapsu
 int age;
 human(){
 System.out.println("human class constructor hu mai");
+System.out.println(sex);
 }
 void show(){
     System.out.println("the age is  "+ age );
