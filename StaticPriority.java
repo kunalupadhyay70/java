@@ -1,8 +1,5 @@
 public class StaticPriority {
-    
-}
 //import java.io.IOException;
-public class staticExplain{
     static int age ;
     static{
         age =18;

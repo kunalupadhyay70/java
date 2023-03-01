@@ -1,5 +1,6 @@
  // single level inheritance for the linear method 
-class base  // extends obejc class by default if extends keyword is not written
+ package inheritance;
+ class base  // extends obejc class by default if extends keyword is not written
  {  base(){
 System.out.println("single level inheritance");}
 }

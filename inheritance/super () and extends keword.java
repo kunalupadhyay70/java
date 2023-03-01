@@ -1,3 +1,4 @@
+package inheritance;
 class human{
 private String sex ; //private memeber cant be accesed by derived class #encapsulation
 int age;
@@ -12,6 +13,10 @@ void show(){
 class student extends human{
     student(){      // by defaut added in the class when the object of the class is created
         super();  //default add super method of 0 parameterised
+        
+        { pet p =new pet();
+        overiddenMethods obj =new overiddenMethods();
+        p.eat();}
     }
 
 }

@@ -1,5 +1,5 @@
  // classes are allowed to perform polymorphism  and overide the method 
- 
+//  package inheritance;
  class pet {
         void eat(){  //overridding methods in chidren class 
             System.out.println("aaj mamla kharab hai sambhal lena ");
