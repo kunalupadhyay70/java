@@ -1,7 +1,7 @@
 import java.util.Scanner;
 interface client //design of the idea that client wants to be implemented 
 {
-void input();// by default it is public static and abstract
+default void input(){};// by default it is public static and abstract
 void output();
 }// the implelements keyword used to use interface
 class develpoer implements client {
