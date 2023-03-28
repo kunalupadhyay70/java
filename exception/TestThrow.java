@@ -1,7 +1,7 @@
 
 class  TestThrowFunction{
     //defining method 
-    public void checkNum(int num) {  
+    public void checkNum(int num)throws ArithmeticException {  
         if (num < 1) {  
             throw new ArithmeticException(); 
         }  
@@ -14,7 +14,10 @@ public class TestThrow {
      //main method  
     public static void main(String[] args) {  
            TestThrowFunction obj = new TestThrowFunction();  
-            obj.checkNum(-3);  
+            try {obj.checkNum(-3);}
+            catch(Exception e)  {
+                System.out.println("error");
+            }
             System.out.println("Rest of the code..");  
     }  
 }  
