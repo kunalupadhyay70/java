@@ -12,7 +12,7 @@ class demo{
 public class ThrowsException{
     public static void main(String[] args) {
       try{
-        demo obj= new demo();
+        file obj= new file();
         obj.a();
     }
     catch(Exception e){
